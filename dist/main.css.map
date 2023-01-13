@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA;EACE,aAAa;AACf,C","sources":["webpack://react-drupal/./src/styles.module.css"],"sourcesContent":[".general {\n  padding: 16px;\n}"],"names":[],"sourceRoot":""}

@@ -1,0 +1,15 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "rules": {
+    "indentation": 2,
+    "selector-class-pattern": "(.*?)",
+    "selector-pseudo-class-no-unknown": [true, {
+      "ignorePseudoClasses": ["global"]
+    }],
+    "color-function-notation": "legacy",
+    "alpha-value-notation": "number",
+    "font-family-no-missing-generic-family-keyword": [true, {
+      "ignoreFontFamilies": ["OpenSansHebrew-Bold", "OpenSansHebrew-ExtraBold", "Open-Sans-Regular", "OpenSansHebrew-Regular", "OpenSansHebrew-Light", "Arial"]
+    }]
+  }
+}
