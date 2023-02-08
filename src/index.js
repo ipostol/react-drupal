@@ -18,6 +18,7 @@ const components = {
       />
     </div>
   ),
+  hello: () => <div>Hello World!</div>,
 };
 
 window.__REACT__ = {
